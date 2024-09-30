@@ -43,6 +43,3 @@ TARGET_RECOVERY_DEVICE_MODULES += \
     vendor.display.config@1.0 \
     vendor.display.config@2.0 \
     libdisplayconfig.qti
-    
-# Inherit the proprietary files
-$(call inherit-product, vendor/qualcomm/missi/missi-vendor.mk)
