@@ -4,7 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/qualcomm/missi
+# Device Tree Path
+DEVICE_PATH := device/xiaomi/courbet
 
 # Architecture
 TARGET_ARCH := arm64
