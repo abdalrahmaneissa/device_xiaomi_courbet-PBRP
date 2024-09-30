@@ -14,7 +14,9 @@ TARGET_SCREEN_WIDTH := 1080
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
-    fastbootd
+    fastbootd \
+    qcom_decrypt \
+    qcom_decrypt_fbe \
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
