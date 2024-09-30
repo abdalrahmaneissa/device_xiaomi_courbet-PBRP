@@ -34,5 +34,12 @@ RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/vendor.qti.hardware.vibrator.impl.so \
     $(TARGET_OUT_VENDOR_SHARED_LIBRARIES)/libqtivibratoreffect.so
 
+# Additional binaries & libraries needed for recovery    
+TARGET_RECOVERY_DEVICE_MODULES += \
+    libion \
+    vendor.display.config@1.0 \
+    vendor.display.config@2.0 \
+    libdisplayconfig.qti
+    
 # Inherit the proprietary files
 $(call inherit-product, vendor/qualcomm/missi/missi-vendor.mk)
