@@ -23,7 +23,7 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
-    $(LOCAL_PATH)
+    vendor/qcom/opensource/commonsys-intf/display
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/qualcomm/missi/missi-vendor.mk)
