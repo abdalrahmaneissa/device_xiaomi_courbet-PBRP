@@ -112,7 +112,6 @@ TW_OVERRIDE_SYSTEM_PROPS := "ro.build.fingerprint=ro.system.build.fingerprint;ro
 TW_Y_OFFSET := 91
 TW_H_OFFSET := -91
 TWRP_INCLUDE_LOGCAT := true
-TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
 TW_INCLUDE_PYTHON := true
 TW_FRAMERATE := 90
