@@ -5,6 +5,7 @@
 #
 
 # Device Tree Path
+PRODUCT_RELEASE_NAME := courbet
 DEVICE_PATH := device/xiaomi/courbet
 
 # Architecture
