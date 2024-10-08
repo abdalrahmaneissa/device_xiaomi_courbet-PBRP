@@ -118,7 +118,7 @@ TW_FRAMERATE := 90
 TW_INCLUDE_FASTBOOTD := true
 
 # PBRP Flags
-PB_TORCH_PATH := /sys/class/leds/flashlight
+PB_TORCH_PATH := "/sys/class/leds/led:torch_0"
 PB_DISABLE_DEFAULT_TREBLE_COMP := true
 PB_DISABLE_DEFAULT_PATCH_AVB2 := true
 PB_FORCE_DD_FLASH := true
